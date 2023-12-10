@@ -1,0 +1,71 @@
+.homeContainer{
+    background-color: #e1e6ed;
+    min-height: 100vh;
+}
+.navbar{
+    height: 10vh;
+}
+.navbar-left{
+    display: flex;
+    padding: 5px 15px;
+    align-items: center;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.selectionContainer{
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    justify-content: space-between;
+}
+.filter-name{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+}
+.options{
+    color: black;
+    font-family: "Roboto";
+    outline: none;
+    width: 100px;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.nav-option{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+}
+.icon{
+    margin: 0px 3px;
+}
+.displayContainer{
+    border: 1px solid gray;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 250px;
+}
+
+/*users list*/
+.usersList{
+    list-style-type: none;
+    padding: 15px;
+    padding-top: 0px;
+}
+.userProfile{
+    display: flex;
+}
+/*card styling*/
+.card-set1{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 0px 10px;
+    text-align: left;
+}
